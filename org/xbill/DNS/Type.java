@@ -192,6 +192,9 @@ public static final int ANY		= 255;
 /** DNSSEC Lookaside Validation, RFC 4431 . */
 public static final int DLV		= 32769;
 
+/** CAA, RFC 6844 */
+public static final int CAA		= 257;
+
 /** SMIMEA; Hex #FFEA */
 public static final int SMIMEA		= 65514;
 
