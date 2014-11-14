@@ -18,7 +18,7 @@ CAARecord() {}
 
 Record
 getObject() {
-	return new NAPTRRecord();
+	return new CAARecord();
 }
 
 /**

@@ -290,6 +290,7 @@ static {
 	types.add(MAILA, "MAILA");
 	types.add(ANY, "ANY");
 	types.add(DLV, "DLV", new DLVRecord());
+	types.add(CAA, "CAA", new CAARecord());
 	types.add(SMIMEA, "SMIMEA", new SMIMEARecord());
 }
 
