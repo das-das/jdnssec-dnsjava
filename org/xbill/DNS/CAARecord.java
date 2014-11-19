@@ -69,7 +69,7 @@ rrToString() {
 	sb.append(" ");
 	sb.append(byteArrayToString(tag, false));
 	sb.append(" ");
-	sb.append(byteArrayToString(value, false));
+	sb.append(byteArrayToString(value, true)); // quoting by default
 	return sb.toString();
 }
 
