@@ -20,7 +20,7 @@ public static class Code {
 	public final static int NSID = 3;
 
 	/** Client Subnet, defined in draft-vandergaast-edns-client-subnet-00 */
-	public final static int CLIENT_SUBNET = 20730;
+	public final static int CLIENT_SUBNET = 8;
 
 	private static Mnemonic codes = new Mnemonic("EDNS Option Codes",
 						     Mnemonic.CASE_UPPER);
